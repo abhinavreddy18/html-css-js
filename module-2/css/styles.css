@@ -4,12 +4,12 @@ h1 {
     font: times new roman, fantasy;
 }
 body {
-	background-image: url("background.jpg");
-	background-color: #FEC5CA;
+  background-color: #FEC5CA;
 
 }
 
 .container{
+  border: 10px #FF0000;
     margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
@@ -18,11 +18,12 @@ body {
 }
 
 .row {
-	width: 100%;
+  width: 100%;
+  
 }
 section{
     background-color : #00FF98;
-    border: 50px solidblack;
+    border: 10px solid #FF0000;
     color: black;
     position: relative;
     padding: 10px 0px 10px 0px;
@@ -54,7 +55,7 @@ section{
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
-	background-color: #FFFF00;
+	background-color: #FF8F00;
 }
 
 #sushi{
@@ -68,142 +69,38 @@ section{
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
-	background-color: #FFFF00;
+	background-color: #ABCD;
 }
 
 
 /* Desktop view */
 
 @media (min-width: 992px) {
-    .large-screen-1, .large-screen-2, .large-screen-3, .large-screen-4, .large-screen-5, .large-screen-6, .large-screen-7, .large-screen-8, .large-screen-9, .large-screen-10, .large-screen-11, .large-screen-12 {
-      float: left;
-    }
-  
-    .large-screen-1 {
-      width: 8.33%;
-    }
-    .large-screen-2 {
-      width: 16.66%;
-    }
-    .large-screen-3 {
-      width: 25%;
-    }
-    .large-screen-4 {
-      width: 33.33%;
-    }
-    .large-screen-5 {
-      width: 41.66%;
-    }
-    .large-screen-6 {
-      width: 50%;
-    }
-    .large-screen-7 {
-      width: 58.33%;
-    }
-    .large-screen-8 {
-      width: 66.66%;
-    }
-    .large-screen-9 {
-      width: 74.99%;
-    }
-    .large-screen-10 {
-      width: 83.33%;
-    }
-    .large-screen-11 {
-      width: 91.66%;
-    }
-    .large-screen-12 {
-      width: 100%;
-    }
-  
+  .large-screen-4 {
+    width: 33.33%;
+    float: left;
+  }
   }
   
   /* Tablet view */
   
   @media (min-width: 768px) and (max-width: 991px) {
-    .medium-screen-1, .medium-screen-2, .medium-screen-3, .medium-screen-4, .medium-screen-5, .medium-screen-6, .medium-screen-7, .medium-screen-8, .medium-screen-9, .medium-screen-10, .medium-screen-11, .medium-screen-12 {
-      float: left;
-    }
-  
-    .medium-screen-1 {
-      width: 8.33%;
-    }
-    .medium-screen-2 {
-      width: 16.66%;
-    }
-    .medium-screen-3 {
-      width: 25%;
-    }
-    .medium-screen-4 {
-      width: 33.33%;
-    }
-    .medium-screen-5 {
-      width: 41.66%;
-    }
+    
     .medium-screen-6 {
       width: 50%;
-    }
-    .medium-screen-7 {
-      width: 58.33%;
-    }
-    .medium-screen-8 {
-      width: 66.66%;
-    }
-    .medium-screen-9 {
-      width: 74.99%;
-    }
-    .medium-screen-10 {
-      width: 83.33%;
-    }
-    .medium-screen-11 {
-      width: 91.66%;
+      float: left;
     }
     .medium-screen-12 {
       width: 100%;
+      float: left;
     }
   }
   
   /* Mobile view */
   
   @media (max-width: 768px) {
-    .mobile-screen-1, .mobile-screen-2, .mobile-screen-3, .mobile-screen-4, .mobile-screen-5, .mobile-screen-6, .mobile-screen-7, .mobile-screen-8, .mobile-screen-9, .mobile-screen-10, .mobile-screen-11, .mobile-screen-12 {
-       float: left;
-    }
-  
-    .mobile-screen-1 {
-      width: 8.33%;
-    }
-    .mobile-screen-2 {
-      width: 16.66%;
-    }
-    .mobile-screen-3 {
-      width: 25%;
-    }
-    .mobile-screen-4 {
-      width: 33.33%;
-    }
-    .mobile-screen-5 {
-      width: 41.66%;
-    }
-    .mobile-screen-6 {
-      width: 50%;
-    }
-    .mobile-screen-7 {
-      width: 58.33%;
-    }
-    .mobile-screen-8 {
-      width: 66.66%;
-    }
-    .mobile-screen-9 {
-      width: 74.99%;
-    }
-    .mobile-screen-10 {
-      width: 83.33%;
-    }
-    .mobile-screen-11 {
-      width: 91.66%;
-    }
-    .mobile-screen-12 {
+    .small-screen-12 {
       width: 100%;
+      float: left;
     }
   }
