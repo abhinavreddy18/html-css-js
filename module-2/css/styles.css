@@ -9,7 +9,7 @@ body {
 }
 
 .container{
-  border: 10px #FF0000;
+  border: 10px solid  #0000;
     margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
@@ -23,7 +23,7 @@ body {
 }
 section{
     background-color : #00FF98;
-    border: 10px solid #FF0000;
+    border: 5px solid #FF0000;
     color: black;
     position: relative;
     padding: 10px 0px 10px 0px;
@@ -31,7 +31,7 @@ section{
 }
 
 #chicken {
-	border: 1px solid black;
+	border: 5px solid #FF0000;
 	text-align: center;
 	width: 30%;
 	margin-left: 70%;
@@ -45,7 +45,7 @@ section{
 }
 
 #beef{
-    border: 1px solid black;
+    border: 5px solid #FF0000;
 	text-align: center;
 	width: 30%;
 	margin-left: 70%;
@@ -59,7 +59,7 @@ section{
 }
 
 #sushi{
-    border: 1px solid black;
+    border: 5px solid #FF0000;
 	text-align: center;
 	width: 30%;
 	margin-left: 70%;
